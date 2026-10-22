@@ -7,7 +7,7 @@ int main()
     scanf("%d",&units);
     if (units<=100)
     { 
-          bill=units*1.50
+          bill=units*1.50;
     }
     else if(units<=200)
     {
