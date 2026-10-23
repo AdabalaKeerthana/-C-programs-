@@ -20,7 +20,7 @@ int main()
           delivery=50;
      }
      final_amount=amount-discount+delivery;
-     printf("final amount is %.2f",final_amount");
+     printf("final amount is %.2f",final_amount);
      return 0;
 }
               
