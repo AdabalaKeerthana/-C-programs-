@@ -18,6 +18,7 @@ int main()
      }
 
    else if(choice==2)
+   {
      {
         printf("Enter withdrawl amount:");
         scanf("%f",&amount);
