@@ -6,15 +6,15 @@ int main()
    scanf("%d%d%d%d%d%d%d",&A,&B,&C,&D,&E,&F,&G);
 
    result1=A+B*C+(D*E)+F*G;
-   printf("result is %d",&result1);
+   printf("result1 is %d",result1);
 
    result2=A/B*C-B+A*D/3;
-   printf("result is %d",&result2);
+   printf("result2 is %d",result2);
 
    result3=A+++B---A;
-   printf("result is %d",&result3);
+   printf("result3 is %d",result3);
 
    result4=J=(i++)+(++i);
-   printf("redult is %d",&result4);
+   printf("result4 is %d",result4);
  return 0;
 }
