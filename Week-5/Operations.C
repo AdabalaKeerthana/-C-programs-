@@ -16,12 +16,15 @@ int main()
       case 1:
         printf("Result is %.2f",a+b);
         break;
+
       case 2:
         printf("Result is %.2f",a-b);
         break;
+
       case 3:
         printf("Result is %.2f",a*b);
         break;
+
       case 4:
         if(b==0)
          {
@@ -31,10 +34,12 @@ int main()
          {
             printf("Result is %.2f",a/b);
          }
+         break;
+
       default:
          printf("Invalid operation");
-    return 0;
- }
-      
+      return 0;
+  }
+}
 
     
