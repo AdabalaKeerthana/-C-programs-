@@ -2,7 +2,7 @@
 int main()
 {
     int a,b,c,d,max,min;
-    printf("enter four numbers");
+    printf("Enter four numbers");
     scanf("%d%d%d%d",&a,&b,&c,&d);
     min=max=a;
 
@@ -21,7 +21,7 @@ int main()
     else if(d< min)
       min=d;
 
-   printf("Maximum is %d",max);
+   printf("Maximum is %d\n",max);
    printf("Minimum is %d\n",min);
    return 0;
 }
